@@ -1,5 +1,3 @@
-Create a ReadMe.md file that is well laid out. The file should have the following info In order:
-
 HowTo video: Install Comfy UI From Scratch:
 https://youtu.be/apbXrQ4pcrg
 
