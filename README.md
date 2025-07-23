@@ -16,6 +16,9 @@ Clones git repositories to "ComfyUI\custom_nodes" and updates their requirements
 **Install ComfyUI From Scratch:**  
 [Watch on YouTube](https://youtu.be/AkuE9NmP0qc)
 
+**Manual Custom Node Install (When ComfyUI Manager Fails):**  
+[Watch on YouTube](https://youtu.be/ds_JYS_cUFI)
+
 ---
 
 ## 🖥️ CUDA Version Check
