@@ -2,13 +2,13 @@
 
 ## 🔧 Batch File Tools
 **RUN_AI**  
-Runs ComfyUI with Sage Attention (Place in same folder as "ComfyUI" and "python_embeded")
+Runs ComfyUI with Sage Attention (Place in same folder as "ComfyUI" and "python_embeded" folders)
 
 **DOWNLOAD AND UPDATE COMFYUI MANAGER** 
-Downloads ComfyUI manager into ComfyUI folder and installs requirements (Place in same folder as "ComfyUI" and "python_embeded")
+Downloads ComfyUI manager into ComfyUI folder and installs requirements (Place in same folder as "ComfyUI" and "python_embeded" folders)
 
 **CLONE & UPDATE REPO**
-Clones git repositories to "ComfyUI\custom_nodes" and updates their requirements using a GitHub repository link (Place in same folder as "ComfyUI" and "python_embeded")
+Clones git repositories to "ComfyUI\custom_nodes" and updates their requirements using a GitHub repository link (Place in same folder as "ComfyUI" and "python_embeded" folders)
 
 ---
 
