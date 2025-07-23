@@ -1,5 +1,17 @@
 # ComfyUI Installation Guide
 
+## 🔧 Batch File Tools
+**RUN_AI**  
+Runs ComfyUI with Sage Attention (Place in same folder as "ComfyUI" and "python_embeded")
+
+**DOWNLOAD AND UPDATE COMFYUI MANAGER** 
+Downloads ComfyUI manager into ComfyUI folder and installs requirements (Place in same folder as "ComfyUI" and "python_embeded")
+
+**CLONE & UPDATE REPO**
+Clones git repositories to "ComfyUI\custom_nodes" and updates their requirements using a GitHub repository link (Place in same folder as "ComfyUI" and "python_embeded")
+
+---
+
 ## 📺 How-To Video
 **Install ComfyUI From Scratch:**  
 [Watch on YouTube](https://youtu.be/apbXrQ4pcrg)
