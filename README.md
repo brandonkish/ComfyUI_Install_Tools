@@ -14,7 +14,7 @@ Clones git repositories to "ComfyUI\custom_nodes" and updates their requirements
 
 ## 📺 How-To Video
 **Install ComfyUI From Scratch:**  
-[Watch on YouTube](https://youtu.be/apbXrQ4pcrg)
+[Watch on YouTube](https://youtu.be/AkuE9NmP0qc)
 
 ---
 
