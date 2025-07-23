@@ -3,7 +3,7 @@ setlocal
 
 REM Set target paths (relative to the batch file's location)
 set "TARGET_DIR=ComfyUI\custom_nodes"
-set "PYTHON_PATH=python_embeded\python.exe"
+set "PYTHON_PATH=..\..\..\python_embeded\python.exe"
 
 REM Check if Git is available
 git --version >nul 2>&1
@@ -47,6 +47,7 @@ for /f "delims=" %%a in ('dir /b /ad /o:-d') do (
 :found
 REM Install requirements if the file exists in the newly created folder
 cd %NEWEST_FOLDER%
+
 if exist "requirements.txt" (
 echo.
 echo ================================================================
@@ -72,6 +73,7 @@ echo To: "%TARGET_DIR%\%NEWEST_FOLDER%"...
 echo ================================================================
 echo.
 pause
+@echo off
 cls
 goto LOOP
 
