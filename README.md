@@ -79,13 +79,3 @@ python.exe -m pip install "triton-windows==3.3.1.post19"
 
 - **SageAttention 2.2.0 Wheel (CUDA 12.8, PyTorch 2.8.0, Python 3.10.9):**  
   [Download Wheel](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0+cu128torch2.8.0-cp311-cp311-win_amd64.whl)
-
----
-
-## ⚙️ Update Custom Node Requirements
-
-- **Batch Command (run inside a node folder like `custom_nodes\some_node\`):**
-```bash
-..\..\..\python_embeded\python.exe -m pip install -r requirements.txt
-pause
-```
