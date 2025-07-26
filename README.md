@@ -95,3 +95,7 @@ The script generates a **CSV file** named `repositories.csv` containing the repo
 3. Repositories containing a `.git` folder.
 
 Each row in the CSV file follows this format:
+folder_type, repository_url, folder_name
+
+The output file is sorted alphabetically within each category and can be opened in spreadsheet programs like **Microsoft Excel** or **Google Sheets** for easy viewing and further manipulation.
+The batch file is easy to use: simply run it in a folder containing your repositories, and it will generate the `repositories.csv` file.
