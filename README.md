@@ -79,3 +79,19 @@ python.exe -m pip install "triton-windows==3.3.1.post19"
 
 - **SageAttention 2.2.0 Wheel (CUDA 12.8, PyTorch 2.8.0, Python 3.10.9):**  
   [Download Wheel](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0+cu128torch2.8.0-cp311-cp311-win_amd64.whl)
+  
+## DOWNLOAD_AND_UPDATE_COMFYUI_MANAGER overview
+
+This batch file is designed to scan the top-level directories in the current folder for `.git` or `.github` folders (indicating Git repositories). It retrieves the repository URL using `git config` and organizes the repositories into three categories based on their type:
+
+1. **ComfyUI Repositories**: Repositories that have the link `https://github.com/comfyanonymous/ComfyUI.git`.
+2. **GitHub Repositories**: Repositories with a `.github` folder.
+3. **Git Repositories**: Repositories with a `.git` folder.
+
+The script generates a **CSV file** named `repositories.csv` containing the repository URLs along with the type of folder they were found in and the folder name. The CSV file is sorted in the following order:
+
+1. Repositories with `https://github.com/comfyanonymous/ComfyUI.git` (ComfyUI repositories).
+2. Repositories containing a `.github` folder.
+3. Repositories containing a `.git` folder.
+
+Each row in the CSV file follows this format:
