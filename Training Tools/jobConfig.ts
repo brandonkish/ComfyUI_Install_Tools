@@ -24,7 +24,7 @@ export const defaultJobConfig: JobConfig = {
     process: [
       {
         type: 'ui_trainer',
-        training_folder: 'H:\\AI_WAN_2_1_VACE_VIDEO\AI\\ComfyUI_portable_win_nvidia_python_3_12_10\\ComfyUI\\models\\loras\\WAN_2_1\\custom_trained',
+        training_folder: '',
         log_dir: '.\run',
         sqlite_db_path: './aitk_db.db',
         device: 'cuda',
